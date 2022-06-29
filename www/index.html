@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Bootstrap Example</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+
+      
+
+      <!-- Custom styles for this template -->
+      <link href="css/navbar-fixed-top.css" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container">
+            <div class="navbar-header">
+
+               <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-ok-circle"></span></a>
+
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+
+               <ul class="nav navbar-nav">
+
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+      <div class="container">
+         <div class="well" id="masterC" style="display:none">
+            <div class="row">
+               <div class="table-responsive">
+                  <a class="btn btn-primary" href="#btnAddKenalan" role="button"><span class="glyphicon glyphicon-plus"></span></a>
+                  <table id="maintable" class="table table-striped">
+                     <thead>
+                     </thead>
+                     <tbody>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+
+         <div class="well" id="divFrmAddKenalan" style="display:none">
+            <div class="row">
+               <div class="col-sm-6">
+                  <form id="frmAddKenalan">
+                     <h4>Enter Contact Details</h4>
+                     <input type="text" id="firstname" placeholder="First Name?">
+                     <br><br>
+                     <input type="text" id="lastname" placeholder="Last Name?">
+                     <br><br>
+                     <input type="text" id="nickname" placeholder="Nick Name?">
+                     <br><br>
+                     <input type="text" id="phoneno" placeholder="Phone Num?">
+                     <br><br>
+                     <input type="text" id="contactemail" placeholder="Email?">
+                     <br><br>
+                     <button type="submit" class="btn btn-success" style="width:fit-content">Save Contact</button>
+                     <button type="reset" class="btn btn-info" style="width:fit-content">Reset</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+         
+         
+      </div>
+
+      <nav class="navbar navbar-default navbar-fixed-bottom">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">   
+                  Footer        
+               </div>
+            </div>
+         </div>
+      </nav>
+         
+
+      
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/index.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/signals.min.js"></script>
+      <script src="js/hasher.min.js"></script>
+      <script src="js/crossroads.min.js"></script>
+      <script src="cordova.js"></script>
+      
+   </body>
+</html>
